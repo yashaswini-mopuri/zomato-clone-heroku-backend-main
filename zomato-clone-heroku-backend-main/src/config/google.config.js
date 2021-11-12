@@ -11,7 +11,7 @@ export default (passport) => {
         clientID: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
         callbackURL:
-          "https://zomato-clone-heroku-backend.herokuapp.com/auth/google/callback",
+          "https://zomato2.herokuapp.com/auth/google/callback",
       },
 
       //after authenticating with google you will get these values
